@@ -1,0 +1,320 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Akash Pradhan - Portfolio</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" /> 
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"> 
+         
+    </head>
+<body>
+   
+
+    <header id="home">
+        <div class="nav-bar">
+            <h1>Akash Pradhan</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#education">Education</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+            <div class="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+
+    
+        <header>
+            <div class="header-content">
+                <div class="header-text">
+                    <h1 id="header-message"></h1> <!-- Container for the typing message -->
+                </div>
+                <div class="header-image">
+                    <img src="pic.jpeg" alt="Akash Pradhan">
+                    <p>Leveraging Data and Code to Create Innovative Solutions</p>
+                    <a href="#about" class="btn">Learn More</a>
+                </div>
+            </div>
+        </header>
+        
+    </header>
+    
+
+
+    <!-- <section id="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p id="about-text"></p>
+            </div>
+        </div>
+    </section> -->
+    
+    <section id="about">
+    <div class="container">
+        <h2>About Me</h2>
+        <div class="about-content">
+            <p id="about-text"></p>
+        </div>
+        <div class="background-effects"></div> <!-- For interactive effects -->
+    </div>
+</section>
+
+    
+
+
+    <section id="education">
+        <div class="container">
+            <h2>Education</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Master of Computer Applications (MCA)</h3>
+                        <span class="timeline-date">2022 - 2024</span>
+                        <p>Lovely Professional University</p>
+                        <p>CGPA: 8.5</p>
+                        <img src="lpu.png" alt="Lovely Professional University Logo">
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-content">
+                        <h3>Bachelor of Computer Applications (BCA)</h3>
+                        <span class="timeline-date">2019 - 2022</span>
+                        <p>XYZ University</p>
+                        <p>CGPA: 8.2</p>
+                        <img src="edu.jpg" alt="BCA University Logo">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  
+    
+    
+
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            
+            <!-- Slide 1: Coding Languages -->
+            <div class="swiper-slide">
+                <h3>Coding Languages</h3>
+                <div class="skill-icon"><i class="fab fa-java"></i>Java</div>
+                <div class="skill-icon"><i class="fab fa-python"></i>Python</div>
+                <div class="skill-icon"><i class="fab fa-android"></i>Flutter</div>
+            </div>
+            <!-- Slide 2: Tools -->
+            <div class="swiper-slide">
+                <h3>Tools</h3>
+                <div class="skill-icon"><i class="fas fa-file-excel"></i>Excel</div>
+                <div class="skill-icon"><i class="fas fa-chart-line"></i>Power BI</div>
+                <div class="skill-icon"><i class="fas fa-database"></i>Tableau</div>
+            </div>
+            <!-- Slide 3: Databases -->
+            <div class="swiper-slide">
+                <h3>Databases</h3>
+                <div class="skill-icon"><i class="fas fa-database"></i>MySQL</div>
+            </div>
+            <!-- Slide 4: Data Science -->
+            <div class="swiper-slide">
+                <h3>Data Science</h3>
+                <div class="skill-icon"><i class="fas fa-robot"></i>Machine Learning</div>
+                <div class="skill-icon"><i class="fas fa-brain"></i>Deep Learning</div>
+                <div class="skill-icon"><i class="fas fa-comment-dots"></i>NLP</div>
+            </div>
+        </div>
+        <!-- Add Pagination -->
+        <div class="swiper-pagination"></div>
+        <!-- Add Navigation -->
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+    </div>
+    
+    
+
+  
+    
+
+    <section id="certifications-internships">
+        <div class="container">
+            <h2>Certifications & Internships</h2>
+            <div class="card-container">
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="bia.jpg" alt="Boston Institute of Analytics" class="card-logo">
+                            <h3>Data Science and AI</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>Certification Details</h3>
+                            <p>Boston Institute of Analytics</p>
+                            <p>Date: July 2024 - ongoing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-inner">
+                        <div class="card-front">
+                            <img src="company.png" alt="Company logo" class="card-logo">
+                            <h3>Flutter Developer Intern</h3>
+                        </div>
+                        <div class="card-back">
+                            <h3>Internship Details</h3>
+                            <p>VISIONDG TECH SOLUTION</p>
+                            <p>Duration: 6 months</p>
+                            <p>Start Date: 4 March 2024</p>
+                            <p>End Date: 4 September 2024</p>
+                            <p>Location: Remote</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card" onclick="toggleProjectDetails('details1')">
+                    <h3>Project1</h3>
+                    <p>Short description of Project1</p>
+                    <div id="details1" class="project-details">
+                        <div class="media-gallery">
+                            <div class="gallery-item" style="background-image: url('path_to_project1_image1.jpg');"></div>
+                            <div class="gallery-item" style="background-image: url('path_to_project1_image2.jpg');"></div>
+                            <div class="gallery-item">
+                                <iframe src="link_to_project1_video" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="link_to_project1_live" target="_blank">Live Demo</a>
+                            <a href="https://github.com/Akash-212/JAVA_TEXT_EDITOR-DEMO.git" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="toggleProjectDetails('details2')">
+                    <h3>Project2</h3>
+                    <p>Short description of Project2</p>
+                    <div id="details2" class="project-details">
+                        <div class="media-gallery">
+                            <div class="gallery-item" style="background-image: url('path_to_project2_image1.jpg');"></div>
+                            <div class="gallery-item" style="background-image: url('path_to_project2_image2.jpg');"></div>
+                            <div class="gallery-item">
+                                <iframe src="link_to_project2_video" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="link_to_project2_live" target="_blank">Live Demo</a>
+                            <a href="link_to_project2_github" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card" onclick="toggleProjectDetails('details3')">
+                    <h3>Project3</h3>
+                    <p>Short description of Project3</p>
+                    <div id="details3" class="project-details">
+                        <div class="media-gallery">
+                            <div class="gallery-item" style="background-image: url('path_to_project3_image1.jpg');"></div>
+                            <div class="gallery-item" style="background-image: url('path_to_project3_image2.jpg');"></div>
+                            <div class="gallery-item">
+                                <iframe src="link_to_project3_video" frameborder="0" allowfullscreen></iframe>
+                            </div>
+                        </div>
+                        <div class="project-links">
+                            <a href="link_to_project3_live" target="_blank">Live Demo</a>
+                            <a href="link_to_project3_github" target="_blank">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <p>Download my resume to learn more about my experience and skills.</p>
+            <a href="Akash_Pradhan_Resume.pdf" download class="btn">Download Resume</a>
+        </div>
+    </section> -->
+    <section id="resume">
+        <div class="container">
+            <h2>Resume</h2>
+            <div class="resume-container">
+                <div class="resume-summary">
+                    <p>Download my detailed resume to learn more about my experience and skills.</p>
+                    <a href="MACHINE_learning Resume.pdf" class="download-btn" download>Download Resume</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <p>If you have any questions or would like to connect, feel free to reach out through the following channels:</p>
+            <div class="contact-links">
+                <a href="mailto:your-email@example.com" class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <span>Email</span>
+                </a>
+                <a href="https://github.com/your-github-username" target="_blank" class="contact-item">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/your-linkedin-username" target="_blank" class="contact-item">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://twitter.com/your-twitter-username" target="_blank" class="contact-item">
+                    <i class="fab fa-twitter"></i>
+                    <span>Twitter</span>
+                </a>
+                <a href="https://www.instagram.com/your-instagram-username" target="_blank" class="contact-item">
+                    <i class="fab fa-instagram"></i>
+                    <span>Instagram</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Akash Pradhan. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            loop: true,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+            autoplay: {
+                delay: 2000,
+            },
+        });
+    </script>
+ <script src="scripts.js" defer></script>
+</body>
+</html>
